@@ -26,17 +26,17 @@ export default function PortfolioPage() {
     return (
         <div className="pt-20 pb-24 bg-white min-h-screen">
             {/* Portfolio Header */}
-            <section className="bg-avoda-green-dark text-white py-24 text-center px-4">
+            <section className="bg-avoda-cream py-24 text-center px-4">
                 <motion.h1
-                    className="font-serif text-5xl md:text-6xl mb-6"
+                    className="font-serif text-5xl md:text-6xl text-avoda-green-dark mb-6"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
                     Our Portfolio
                 </motion.h1>
-                <motion.p
-                    className="max-w-2xl mx-auto text-avoda-cream/80 text-lg"
+                   <motion.p
+                    className="max-w-2xl mx-auto text-avoda-green-dark/80 text-lg"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}

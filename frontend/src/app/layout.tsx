@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Avoda | Luxury Event Services",
+  title: "Amen | Luxury Event Services",
   description: "Avoda transforms weddings, celebrations, and corporate events into extraordinary experiences through design, photography, and storytelling.",
 };
 

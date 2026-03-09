@@ -7,23 +7,18 @@ export default function AboutPage() {
     return (
         <div className="pt-20 bg-white">
             {/* Hero */}
-            <section className="relative h-[60vh] w-full flex items-center justify-center overflow-hidden">
-                <div
-                    className="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed"
-                    style={{ backgroundImage: "url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop')" }}
+          
+             <section className="bg-avoda-cream py-24 text-center px-4">
+                <motion.h1
+                    className="font-serif text-5xl md:text-6xl text-avoda-green-dark mb-6"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}
                 >
-                    <div className="absolute inset-0 bg-avoda-green-dark/60" />
-                </div>
-                <div className="relative z-10 text-center px-4">
-                    <motion.h1
-                        className="font-serif text-5xl md:text-7xl text-white mb-6"
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8 }}
-                    >
+               
                         Our Story
                     </motion.h1>
-                </div>
+              
             </section>
 
             {/* Brand & Mission */}
@@ -34,9 +29,9 @@ export default function AboutPage() {
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h2 className="uppercase tracking-[0.2em] text-avoda-gold text-sm font-semibold mb-6">The Avoda Standard</h2>
+                    <h2 className="uppercase tracking-[0.2em] text-avoda-gold text-sm font-semibold mb-6">The Amen Standard</h2>
                     <p className="font-serif text-3xl md:text-4xl text-avoda-green-dark leading-relaxed mb-10">
-                        "Avoda was founded to turn special moments into unforgettable memories through creativity, design, and storytelling."
+                        "Amen was founded to turn special moments into unforgettable memories through creativity, design, and storytelling."
                     </p>
                     <p className="text-avoda-green-dark/80 text-lg font-light leading-relaxed mb-8">
                         What began as a passion for capturing fleeting moments has evolved into a premier luxury event agency. We believe that every celebration is a unique narrative waiting to be told. Our mission is to seamlessly blend architectural design, exquisite culinary arts, and cinematic storytelling to create environments where magic happens naturally.
