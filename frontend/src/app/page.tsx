@@ -1,10 +1,23 @@
-// src/app/page.tsx  (or wherever the error is)
-import BookingForm from "@/app/components/BookingForm";
+import { HeroSection } from "@/components/home/HeroSection";
+import { ServicesOverview } from "@/components/home/ServicesOverview";
+import { FeaturedEvents } from "@/components/home/FeaturedEvents";
+import { EventPackages } from "@/components/home/EventPackages";
+import { VideoHighlight } from "@/components/home/VideoHighlight";
+import { Testimonials } from "@/components/home/Testimonials";
+import { InstagramShowcase } from "@/components/home/InstagramShowcase";
+import { CallToAction } from "@/components/home/CallToAction";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-50 py-12">
-      <BookingForm />
-    </main>
+    <div className="w-full">
+      <HeroSection />
+      <ServicesOverview />
+      <FeaturedEvents />
+      <EventPackages />
+      <VideoHighlight />
+      <Testimonials />
+      <InstagramShowcase />
+      <CallToAction />
+    </div>
   );
 }
